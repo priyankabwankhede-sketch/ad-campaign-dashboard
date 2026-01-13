@@ -3,7 +3,7 @@ import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { TrendingUp, DollarSign, Target, Activity } from 'lucide-react';
-import { Campaign, Invoice, CampaignStatus } from '../types';
+import { Campaign, Invoice, CampaignStatus } from './types';
 
 interface DashboardViewProps {
   campaigns: Campaign[];
