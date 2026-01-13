@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { MoreVertical, CheckCircle, Clock, Pause, FileSpreadsheet, Eye, Trash2 } from 'lucide-react';
-import { Campaign, CampaignStatus } from '../types';
+import { Campaign, CampaignStatus } from './types';
 
 interface CampaignListProps {
   campaigns: Campaign[];
