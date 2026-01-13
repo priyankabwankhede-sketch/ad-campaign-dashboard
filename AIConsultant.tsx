@@ -1,8 +1,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Sparkles, Loader2 } from 'lucide-react';
-import { chatWithPlanner } from '../services/geminiService';
-import { Campaign } from '../types';
+import { chatWithPlanner } from './geminiService';
+import { Campaign } from './types';
 
 interface Message {
   role: 'user' | 'model';
