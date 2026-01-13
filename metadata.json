@@ -1,0 +1,9 @@
+
+{
+  "name": "AdFlow Alliance Dashboard",
+  "description": "A comprehensive end-to-end advertising campaign management platform simulating the lifecycle from sales booking to delivery tracking and automated invoicing.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
