@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Calendar, Building2, Tag, CreditCard, ChevronRight, Sparkles, PlusCircle, DollarSign, Loader2, BrainCircuit, CheckCircle2 } from 'lucide-react';
-import { Campaign, CampaignStatus, MediaChannel } from '../types';
-import { getCampaignAdvice } from '../services/geminiService';
+import { Campaign, CampaignStatus, MediaChannel } from './types';
+import { getCampaignAdvice } from './geminiService';
 
 interface CampaignBookingProps {
   onAdd: (campaign: Campaign) => void;
