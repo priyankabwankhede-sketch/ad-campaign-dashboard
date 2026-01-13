@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Download, ExternalLink, Filter, Mail, X, FileText, CheckCircle2 } from 'lucide-react';
 import { jsPDF } from 'jspdf';
-import { Invoice } from '../types';
+import { Invoice } from './types';
 
 interface InvoiceListProps {
   invoices: Invoice[];
