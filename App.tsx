@@ -22,11 +22,11 @@ import {
   ChevronRight,
   Menu
 } from 'lucide-react';
-import DashboardView from './components/DashboardView';
-import CampaignBooking from './components/CampaignBooking';
-import CampaignList from './components/CampaignList';
-import InvoiceList from './components/InvoiceList';
-import AIConsultant from './components/AIConsultant';
+import DashboardView from './DashboardView';
+import CampaignBooking from './CampaignBooking';
+import CampaignList from './CampaignList';
+import InvoiceList from './InvoiceList';
+import AIConsultant from './AIConsultant';
 import { INITIAL_CAMPAIGNS, INITIAL_INVOICES } from './constants';
 import { Campaign, Invoice, CampaignStatus } from './types';
 
